@@ -28,3 +28,8 @@ _testmain.go
 
 gormgen
 .DS_Store
+
+
+vendor
+vendor/
+vendor/**

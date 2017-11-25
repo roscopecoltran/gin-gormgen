@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MohamedBassem/gormgen"
+	"github.com/roscopecoltran/gin-gormgen"
 )
 
 type config struct {

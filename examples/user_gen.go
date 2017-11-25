@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MohamedBassem/gormgen"
 	"github.com/jinzhu/gorm"
+	"github.com/roscopecoltran/gin-gormgen"
 )
 
 func (t *User) Save(db *gorm.DB) error {

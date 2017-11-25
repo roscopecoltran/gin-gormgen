@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/MohamedBassem/gormgen/internal/tmp"
 	"github.com/jinzhu/gorm"
+	"github.com/roscopecoltran/gin-gormgen/internal/tmp"
 	"github.com/stretchr/testify/suite"
 )
 

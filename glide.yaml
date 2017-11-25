@@ -1,0 +1,58 @@
+package: github.com/roscopecoltran/gin-gormgen
+import:
+- package: github.com/PuerkitoBio/goquery
+  version: 152b1a2c8f5d0340f658bb656032a39b94e52958
+  repo: https://github.com/PuerkitoBio/goquery
+- package: github.com/andybalholm/cascadia
+  version: 65919c611220063037b1db8eb334acaf17a6d8ea
+  repo: https://github.com/andybalholm/cascadia
+- package: github.com/denisenkom/go-mssqldb
+  version: fbf0a491e5ec011522c8870da9b0553135e2f9da
+  repo: https://github.com/denisenkom/go-mssqldb
+- package: github.com/go-sql-driver/mysql
+  version: 0b58b37b664c21f3010e836f1b931e1d0b0b0685
+  repo: https://github.com/go-sql-driver/mysql
+- package: github.com/jinzhu/gorm
+  version: 5d853fc53c446a8ce4c60bd85a771b4d5c54999d
+  repo: https://github.com/jinzhu/gorm
+- package: github.com/jinzhu/inflection
+  version: 74387dc39a75e970e7a3ae6a3386b5bd2e5c5cff
+  repo: https://github.com/jinzhu/inflection
+- package: github.com/lib/pq
+  version: ae8357db35d721c58dcdc911318b55bef6b1b001
+  repo: https://github.com/lib/pq
+- package: github.com/mattn/go-sqlite3
+  version: e5a3c16c5c1d80b24f633e68aecd6b0702786d3d
+  repo: https://github.com/mattn/go-sqlite3
+- package: golang.org/x/crypto
+  version: c367d6eeb7c6158125f2f47e049f7eb7e251c09a
+  repo: https://go.googlesource.com/crypto
+  subpackages:
+  - md4
+- package: golang.org/x/net
+  version: a625e3953219464fdd5611bb48bf87c927717295
+  repo: https://go.googlesource.com/net
+  subpackages:
+  - html
+- package: golang.org/x/text
+  version: a35b82c6add3543753645decf6532c40cac8b855
+  repo: https://go.googlesource.com/text
+  subpackages:
+  - encoding
+  - internal/gen
+  - internal/tag
+  - internal/utf8internal
+  - language
+  - runes
+  - transform
+  - unicode/cldr
+- package: golang.org/x/tools
+  version: c6efba04dd0d931bb11cd7f556285fa3c9305398
+  repo: https://go.googlesource.com/tools
+  subpackages:
+  - go/ast/astutil
+  - imports
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - suite

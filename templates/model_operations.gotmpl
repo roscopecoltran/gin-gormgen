@@ -1,37 +1,3 @@
-package gormgen
-
-import "text/template"
-
-//go:generate go-bindata -pkg main -o bindata.go templates
-var (
-	gormgenTemplateFile string = "model_operations"
-)
-
-// Make sure that the template compiles during package initialization
-func parseTemplateOrPanic(t string) *template.Template {
-	tpl, err := template.New("output_template").Parse(t)
-	if err != nil {
-		panic(err)
-	}
-	return tpl
-}
-
-// Read template from file
-func readTemplateOrPanic(t string) *template.Template {
-	t, err := template.New(model_operations).Parse(string(d))
-	if err != nil {
-		panic(err)
-	}
-	/*
-		tpl, err := template.New("output_template").Parse(t)
-		if err != nil {
-			panic(err)
-		}
-	*/
-	return tpl
-}
-
-var outputTemplate = parseTemplateOrPanic(`
 package {{.PkgName}}
 
 ///////////////////////////////////////////////////////////
@@ -144,4 +110,3 @@ import "fmt"
 		}
 	{{end}}
 {{end}}
-`)
